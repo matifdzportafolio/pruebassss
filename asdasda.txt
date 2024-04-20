@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...">
+    <title>Title</title>
+    <style>
+        .hand-icon {
+            color: #000; /* Cambia el color del icono si lo deseas */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top navcss">
+    <a class="navbar-brand"  href="#">
+        <i class="fas fa-briefcase"></i> Mi Portafolio
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Sobre Mi <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Proyectos</a>
+            <a class="nav-item nav-link" href="#">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-xl mb-5">
+            <div class="card">
+                <div class="card-body text-center">
+                    <p class="mx-auto display-4">¡Hola! <i class="fas fa-hand-wave hand-icon"></i>Soy Matias Fernandez</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Primera fila -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <a href="http://www.google.com" target="_blank" class="card-body btn btn-css">
+                    <div class="imagen1">
+                        <img src="/img/transporte.png" class="fixed-size-image">
+                    </div>
+                    <div class="texto-card">
+                        <h5 class="card-title text-dark">Monitoreo de Servicios de Transporte Público y de Establecimientos</h5>
+                        <p class="card-text text-dark">Sistema que permite administrar comunidades e incidentes en servicios públicos para personas con movilidad reducida.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <a href="https://github.com/matifdzportafolio/MigracionDelivery" target="_blank" class="card-body btn btn-css">
+                    <div class="imagen1">
+                        <img src="/img/bi.png" class="fixed-size-image">
+                    </div>
+                    <div class="texto-card">
+                        <h5 class="card-title text-dark">Migración y Modelo Power BI en Sistema Delivery</h5>
+                        <p class="card-text text-dark">Construcción de un modelo de datos normalizado e implementación de un modelo de Business Intelligence.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda fila -->
+    <div class="row row2">
+        <div class="col-md-6">
+            <div class="card">
+                <a href="http://www.google.com" target="_blank" class="card-body btn btn-css">
+                    <div class="imagen1">
+                        <img src="/img/libro-de-contactos.png" class="fixed-size-image">
+                    </div>
+                    <div class="texto-card">
+                        <h5 class="card-title text-dark">Mis Contactos</h5>
+                        <p class="card-text text-dark">Sistema que permite dar de alta contactos según categorías y llevar trazabilidad de los mismos.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <a href="https://matifdzportafolio.github.io/ClimaAPI/" target="_blank" class="card-body btn btn-css">
+                    <div class="imagen1">
+                        <img src="/img/clima.png" class="fixed-size-image">
+                    </div>
+                    <div class="texto-card">
+                        <h5 class="card-title text-dark">Consulta de clima</h5>
+                        <p class="card-text text-dark">Consulta del estado climático en alguna ciudad de interés.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-body-tertiary text-center ft-color">
+    <!-- Copyright -->
+    <div class="text-center p-3 text-white textfoot" style="background-color: rgba(0, 0, 0, 0);">
+        Contacto
+    </div>
+    <!-- Copyright -->
+
+
+    <!-- Grid container -->
+    <div class="container p-1 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+
+
+            <!-- Google -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #dd4b39;"
+                    href="mailto:matifdzlaboral@gmail.com?subject=Asunto del correo&body=Cuerpo del mensaje"
+                    role="button"
+            ><i class="fab fa-google"></i
+            ></a>
+
+
+            <!-- Linkedin -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #0082ca;"
+                    href="#!"
+                    role="button"
+            ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+                    data-mdb-ripple-init
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #333333;"
+                    href="#!"
+                    role="button"
+            ><i class="fab fa-github"></i
+            ></a>
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+</footer>
+
+
+
+</body>
+</html>
